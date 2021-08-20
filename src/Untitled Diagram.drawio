@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T06:35:12.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.8" etag="X9aZvk0idID8OMo4OvrV" type="github"><diagram id="HuAqnT2lXIl6ZQlY2Rdg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-20T07:26:15.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="qWlzvYArZ8NtejZMuMGA" version="14.9.8" type="github">
+  <diagram id="HuAqnT2lXIl6ZQlY2Rdg" name="Page-1">
+    <mxGraphModel dx="2032" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-2" target="64HIhIkmmN7Aq2NFYNBo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-2" value="Bank/Fin Tech" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-3" target="64HIhIkmmN7Aq2NFYNBo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-3" value="Call the Rest API&lt;br&gt;&quot;/transform/loanIq/updatefields&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-6" target="64HIhIkmmN7Aq2NFYNBo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-6" value="Process the JSON request and push JSON to In-Queue&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-7" target="64HIhIkmmN7Aq2NFYNBo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-7" value="Read JSON form Out-Queue process the JSON to XML and push to In-Queue" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="247" y="445" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-8" target="64HIhIkmmN7Aq2NFYNBo-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-8" value="Read JSON form Out-Queue process the JSON to XML and push to In-Queue" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="641" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-12" target="64HIhIkmmN7Aq2NFYNBo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-12" target="64HIhIkmmN7Aq2NFYNBo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-12" value="Error" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-14" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.547;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-16" target="64HIhIkmmN7Aq2NFYNBo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-16" target="64HIhIkmmN7Aq2NFYNBo-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-16" value="Error" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-19" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="610" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-20" target="64HIhIkmmN7Aq2NFYNBo-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="850" />
+              <mxPoint x="680" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-20" value="Error Processing" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-23" target="64HIhIkmmN7Aq2NFYNBo-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-23" value="Read XML form Out-Queue Process to Loan IQ SOAP service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="820" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-24" target="64HIhIkmmN7Aq2NFYNBo-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-24" target="64HIhIkmmN7Aq2NFYNBo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-24" value="Error" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="64HIhIkmmN7Aq2NFYNBo-28" target="64HIhIkmmN7Aq2NFYNBo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64HIhIkmmN7Aq2NFYNBo-28" value="Loan IQ system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
