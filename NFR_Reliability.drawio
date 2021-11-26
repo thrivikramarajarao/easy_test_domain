@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T04:59:21.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="NZZnvBM3K4rIVmwA9KAt" version="15.8.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-11-26T05:14:01.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="JSV5nRUhjP2I8or8l2nG" version="15.8.6" type="github" pages="7">
   <diagram id="y5n5SPzCg7jxDURjCboP" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2277,6 +2277,9 @@
       <root>
         <mxCell id="_5O8cBsVwGtmgw4Z9bXb-0" />
         <mxCell id="_5O8cBsVwGtmgw4Z9bXb-1" parent="_5O8cBsVwGtmgw4Z9bXb-0" />
+        <mxCell id="m0waqNLHEJLaiM-xczPh-48" value="Case 2: DB communication Error&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
+          <mxGeometry x="80" y="550" width="1470" height="740" as="geometry" />
+        </mxCell>
         <mxCell id="ifLhT1pEyeo6t-BISxez-0" value="Case 1: DB communication Error&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_5O8cBsVwGtmgw4Z9bXb-1" vertex="1">
           <mxGeometry x="80" y="140" width="890" height="400" as="geometry" />
         </mxCell>
@@ -2415,6 +2418,9 @@
         <mxCell id="m0waqNLHEJLaiM-xczPh-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="zIhHMgd0mM74xQCiJVOp-0">
           <mxGeometry x="45" y="810" width="10" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="zIhHMgd0mM74xQCiJVOp-0">
+          <mxGeometry x="45" y="1140" width="10" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="y5DDV9E7mmlr241DPT6Z-2" value="Send Size and Type info" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.518;exitY=0.122;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.24;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" parent="_5O8cBsVwGtmgw4Z9bXb-1" target="y5DDV9E7mmlr241DPT6Z-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="490" y="270" as="sourcePoint" />
@@ -2458,10 +2464,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
-          <mxGeometry x="343" y="560" width="10" height="47" as="geometry" />
+          <mxGeometry x="343" y="561" width="10" height="47" as="geometry" />
         </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
-          <mxGeometry x="647" y="642" width="10" height="328" as="geometry" />
+          <mxGeometry x="647" y="640" width="10" height="328" as="geometry" />
         </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-9" value="&lt;font color=&quot;#000000&quot;&gt;Validate Type of payout and Create&amp;nbsp;&lt;br&gt;specific Query of payout and&amp;nbsp;&lt;br&gt;read the data&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;fontColor=#FF3333;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#000000;" edge="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
           <mxGeometry y="14" relative="1" as="geometry">
@@ -2541,6 +2547,17 @@
             <mxPoint x="21" y="-21" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-55" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeColor=#000000;" edge="1" parent="m0waqNLHEJLaiM-xczPh-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="1156" as="sourcePoint" />
+            <mxPoint x="-100" y="1156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-56" value="Set the Status Update to complete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="m0waqNLHEJLaiM-xczPh-55">
+          <mxGeometry x="0.2411" y="4" relative="1" as="geometry">
+            <mxPoint x="21" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-22" value="Transform DB process&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
           <mxGeometry x="1080" y="90" width="100" height="1190" as="geometry" />
         </mxCell>
@@ -2557,6 +2574,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="m0waqNLHEJLaiM-xczPh-22">
+          <mxGeometry x="45" y="1100" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-26" value="Send Record Update" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=-0.3;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.26;exitY=0.815;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="_5O8cBsVwGtmgw4Z9bXb-1" source="m0waqNLHEJLaiM-xczPh-8" target="m0waqNLHEJLaiM-xczPh-25">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -2611,6 +2631,17 @@
         <mxCell id="m0waqNLHEJLaiM-xczPh-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="m0waqNLHEJLaiM-xczPh-39">
           <mxGeometry x="45" y="1127" width="10" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-51" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeColor=#000000;" edge="1" parent="m0waqNLHEJLaiM-xczPh-39" source="m0waqNLHEJLaiM-xczPh-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="92.5" y="1100.5" as="sourcePoint" />
+            <mxPoint x="-95" y="1100.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-52" value="Set the Status Update to complete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="m0waqNLHEJLaiM-xczPh-51">
+          <mxGeometry x="0.2411" y="4" relative="1" as="geometry">
+            <mxPoint x="21" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-42" value="TransformDbRecord&lt;br&gt;UpdateProcess&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
           <mxGeometry x="1350" y="90" width="130" height="1190" as="geometry" />
         </mxCell>
@@ -2628,8 +2659,31 @@
             <mxPoint x="21" y="-21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m0waqNLHEJLaiM-xczPh-48" value="Case 1: DB communication Error&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
-          <mxGeometry x="80" y="550" width="1470" height="740" as="geometry" />
+        <mxCell id="m0waqNLHEJLaiM-xczPh-49" value="Any Error on this phase&amp;nbsp;&lt;br&gt;date will not be lost no &lt;br&gt;transaction loss" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;fontColor=#FF3333;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#FF0000;" edge="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
+          <mxGeometry x="0.4348" y="-9" relative="1" as="geometry">
+            <mxPoint x="860" y="910" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="860" y="910" />
+              <mxPoint x="886" y="910" />
+              <mxPoint x="886" y="950" />
+              <mxPoint x="866" y="950" />
+            </Array>
+            <mxPoint x="860" y="950" as="targetPoint" />
+            <mxPoint x="9" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-50" value="Any Error on this phase&amp;nbsp;&lt;br&gt;date will not be lost no &lt;br&gt;transaction loss" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;fontColor=#FF3333;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#FF0000;" edge="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
+          <mxGeometry x="0.4348" y="24" relative="1" as="geometry">
+            <mxPoint x="1137" y="1003" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1137" y="1003" />
+              <mxPoint x="1163" y="1003" />
+              <mxPoint x="1163" y="1043" />
+              <mxPoint x="1143" y="1043" />
+            </Array>
+            <mxPoint x="1137" y="1043" as="targetPoint" />
+            <mxPoint x="14" y="-4" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
