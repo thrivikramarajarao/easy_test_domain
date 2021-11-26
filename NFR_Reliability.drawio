@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T05:27:31.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="BKrtjQjSL1CTkWdZZ7Zw" version="15.8.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-11-26T05:28:42.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="CFtNeSDM2gGdrs87-7D0" version="15.8.6" type="github" pages="8">
   <diagram id="y5n5SPzCg7jxDURjCboP" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3125,6 +3125,9 @@
           <mxGeometry x="0.2411" y="4" relative="1" as="geometry">
             <mxPoint x="21" y="-21" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qmTRAR3mdCtlMsweUGSv-3" value="Case 3: Request Error" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="NsGenFAFG2uYKlWh1JB--1">
+          <mxGeometry x="80" y="1307" width="320" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
