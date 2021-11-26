@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T04:49:25.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Mp74xnz2D499a5RaIjse" version="15.8.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-11-26T04:59:21.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="NZZnvBM3K4rIVmwA9KAt" version="15.8.6" type="github" pages="7">
   <diagram id="y5n5SPzCg7jxDURjCboP" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2286,8 +2286,17 @@
         <mxCell id="_5O8cBsVwGtmgw4Z9bXb-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" parent="_5O8cBsVwGtmgw4Z9bXb-2" vertex="1">
           <mxGeometry x="45" y="83" width="10" height="347" as="geometry" />
         </mxCell>
+        <mxCell id="_5O8cBsVwGtmgw4Z9bXb-12" value="Rest Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="_5O8cBsVwGtmgw4Z9bXb-1" vertex="1">
+          <mxGeometry x="300" y="90" width="100" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="_5O8cBsVwGtmgw4Z9bXb-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" parent="_5O8cBsVwGtmgw4Z9bXb-12" vertex="1">
+          <mxGeometry x="46" y="83" width="10" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="y5DDV9E7mmlr241DPT6Z-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" parent="_5O8cBsVwGtmgw4Z9bXb-12" vertex="1">
+          <mxGeometry x="46" y="380" width="10" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="_5O8cBsVwGtmgw4Z9bXb-6" value="Message Router IMT/MT/DDA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="_5O8cBsVwGtmgw4Z9bXb-1" vertex="1">
-          <mxGeometry x="440" y="90" width="100" height="1170" as="geometry" />
+          <mxGeometry x="440" y="90" width="100" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="_5O8cBsVwGtmgw4Z9bXb-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" parent="_5O8cBsVwGtmgw4Z9bXb-6" vertex="1">
           <mxGeometry x="45" y="330" width="10" height="50" as="geometry" />
@@ -2324,9 +2333,6 @@
             <mxPoint x="21" y="-21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m0waqNLHEJLaiM-xczPh-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-6">
-          <mxGeometry x="-95" y="1023" width="10" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-17" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeColor=#000000;" edge="1" parent="_5O8cBsVwGtmgw4Z9bXb-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-101" y="1063" as="sourcePoint" />
@@ -2341,17 +2347,11 @@
         <mxCell id="m0waqNLHEJLaiM-xczPh-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-6">
           <mxGeometry x="44" y="973" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_5O8cBsVwGtmgw4Z9bXb-12" value="Rest Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="_5O8cBsVwGtmgw4Z9bXb-1" vertex="1">
-          <mxGeometry x="300" y="90" width="100" height="1180" as="geometry" />
-        </mxCell>
-        <mxCell id="_5O8cBsVwGtmgw4Z9bXb-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" parent="_5O8cBsVwGtmgw4Z9bXb-12" vertex="1">
-          <mxGeometry x="46" y="83" width="10" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="y5DDV9E7mmlr241DPT6Z-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" parent="_5O8cBsVwGtmgw4Z9bXb-12" vertex="1">
-          <mxGeometry x="46" y="380" width="10" height="40" as="geometry" />
+        <mxCell id="m0waqNLHEJLaiM-xczPh-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-6">
+          <mxGeometry x="-95" y="1023" width="10" height="57" as="geometry" />
         </mxCell>
         <mxCell id="_5O8cBsVwGtmgw4Z9bXb-14" value="PayoutLoanIQProcess" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="_5O8cBsVwGtmgw4Z9bXb-1" vertex="1">
-          <mxGeometry x="590" y="90" width="130" height="1110" as="geometry" />
+          <mxGeometry x="590" y="90" width="130" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="y5DDV9E7mmlr241DPT6Z-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" parent="_5O8cBsVwGtmgw4Z9bXb-14" vertex="1">
           <mxGeometry x="60" y="176" width="10" height="82" as="geometry" />
@@ -2376,6 +2376,16 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-45" value="Send ACK to Transform Process" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1.06;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="_5O8cBsVwGtmgw4Z9bXb-14" target="m0waqNLHEJLaiM-xczPh-42">
+          <mxGeometry x="-0.1534" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="-234.0000000000001" y="1075.38" as="sourcePoint" />
+            <mxPoint x="679.9000000000001" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-234" y="1070" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_5O8cBsVwGtmgw4Z9bXb-16" value="Request IMT/MT/DDA" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1.3;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.08;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="_5O8cBsVwGtmgw4Z9bXb-1" source="_5O8cBsVwGtmgw4Z9bXb-3" target="_5O8cBsVwGtmgw4Z9bXb-13" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="370" y="180" as="sourcePoint" />
@@ -2384,7 +2394,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zIhHMgd0mM74xQCiJVOp-0" value="LoanIQ Data Base" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="_5O8cBsVwGtmgw4Z9bXb-1" vertex="1">
-          <mxGeometry x="800" y="90" width="100" height="1110" as="geometry" />
+          <mxGeometry x="800" y="90" width="100" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="y5DDV9E7mmlr241DPT6Z-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" parent="zIhHMgd0mM74xQCiJVOp-0" vertex="1">
           <mxGeometry x="45" y="252" width="10" height="78" as="geometry" />
@@ -2502,7 +2512,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-19" value="PayouTransform&lt;br&gt;Process" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
-          <mxGeometry x="950" y="90" width="100" height="1100" as="geometry" />
+          <mxGeometry x="950" y="90" width="100" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="m0waqNLHEJLaiM-xczPh-19">
           <mxGeometry x="45" y="735" width="10" height="255" as="geometry" />
@@ -2532,7 +2542,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-22" value="Transform DB process&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
-          <mxGeometry x="1080" y="90" width="100" height="1100" as="geometry" />
+          <mxGeometry x="1080" y="90" width="100" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="m0waqNLHEJLaiM-xczPh-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="m0waqNLHEJLaiM-xczPh-22">
           <mxGeometry x="45" y="907" width="10" height="60" as="geometry" />
@@ -2594,6 +2604,32 @@
           <mxGeometry x="0.2411" y="4" relative="1" as="geometry">
             <mxPoint x="21" y="-21" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-39" value="LoanIQRecord&lt;br&gt;UpdateProcess&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
+          <mxGeometry x="1220" y="90" width="100" height="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="m0waqNLHEJLaiM-xczPh-39">
+          <mxGeometry x="45" y="1127" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-42" value="TransformDbRecord&lt;br&gt;UpdateProcess&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
+          <mxGeometry x="1350" y="90" width="130" height="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;fontColor=#000000;" vertex="1" parent="m0waqNLHEJLaiM-xczPh-42">
+          <mxGeometry x="60" y="1071" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-46" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeColor=#000000;entryX=0.9;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="m0waqNLHEJLaiM-xczPh-42" target="m0waqNLHEJLaiM-xczPh-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1131" as="sourcePoint" />
+            <mxPoint x="-63.5" y="1131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-47" value="Send ACK to LoanIQ process" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="m0waqNLHEJLaiM-xczPh-46">
+          <mxGeometry x="0.2411" y="4" relative="1" as="geometry">
+            <mxPoint x="21" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0waqNLHEJLaiM-xczPh-48" value="Case 1: DB communication Error&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_5O8cBsVwGtmgw4Z9bXb-1">
+          <mxGeometry x="80" y="550" width="1470" height="740" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
