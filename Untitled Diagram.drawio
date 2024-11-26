@@ -217,6 +217,9 @@
         <mxCell id="-gpSibjR9jl7YBsIEth3-55" value="HTTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="430" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-gpSibjR9jl7YBsIEth3-56" value="&lt;b&gt;Kafka Server&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="313.13" y="770" width="90.75" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
