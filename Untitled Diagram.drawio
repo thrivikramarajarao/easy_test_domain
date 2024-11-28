@@ -501,23 +501,17 @@
         <mxCell id="WZkZmMT75HAtsgcHUiMs-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="830" y="460" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="WZkZmMT75HAtsgcHUiMs-6" value="CRM Enterprise System " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="300" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WZkZmMT75HAtsgcHUiMs-7" value="&lt;h4&gt;&lt;b&gt;CRM Event Handler&lt;/b&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-7" value="&lt;h4&gt;&lt;b&gt;CRM Event Handler&lt;/b&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="300" width="100" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="WZkZmMT75HAtsgcHUiMs-10" value="&lt;h4 align=&quot;center&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CRM-E &lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Processing Handler &lt;/span&gt;&lt;/font&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="170" y="300" width="130" height="210" as="geometry" />
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-10" value="&lt;h4 align=&quot;center&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;CRM-E Processing Handler &lt;/span&gt;&lt;/font&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontStyle=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="130" height="290" as="geometry" />
         </mxCell>
         <mxCell id="WZkZmMT75HAtsgcHUiMs-11" value="CRM System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="860" y="460" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WZkZmMT75HAtsgcHUiMs-12" value="CRM Process " style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="840" y="495" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WZkZmMT75HAtsgcHUiMs-13" value="&lt;b&gt;CRM-E On boarding Services&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="270" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WZkZmMT75HAtsgcHUiMs-14" value="HTTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="500" width="60" height="30" as="geometry" />
@@ -545,6 +539,33 @@
         </mxCell>
         <mxCell id="WZkZmMT75HAtsgcHUiMs-42" value="/createevetns" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="420" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-44" value="consume Messages" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-46" value="Request Onboard for details " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-47" value="Transform them CRM required format " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-48" value="Based on Config process to CRM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="525" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-49" value="&lt;h4&gt;&lt;b&gt;CRM Event Handler&lt;/b&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="307.76" y="300" width="122.24" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-50" value="/onboardproduct" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.76" y="370" width="97.24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-51" value="/getproduct" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.76" y="420" width="102.24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-52" value="/getproductconfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.76" y="520" width="102.24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WZkZmMT75HAtsgcHUiMs-53" value="/getproductconfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.76" y="480" width="102.24" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
