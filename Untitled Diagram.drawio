@@ -379,10 +379,49 @@
           <mxGeometry x="345" y="27.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NTc80MHw-QVXp-LQx4d4-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="qLZGgdguWncP-lVoeVaB-8">
-          <mxGeometry x="191.5" y="120" width="73.5" height="48" as="geometry" />
+          <mxGeometry x="191.5" y="120" width="178.5" height="48" as="geometry" />
         </mxCell>
         <mxCell id="qLZGgdguWncP-lVoeVaB-9" value="CRM Data Processing" style="swimlane;startSize=30;horizontal=0;html=1;" parent="qLZGgdguWncP-lVoeVaB-6" vertex="1">
           <mxGeometry y="418" width="670" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="NTc80MHw-QVXp-LQx4d4-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qLZGgdguWncP-lVoeVaB-9" source="NTc80MHw-QVXp-LQx4d4-32" target="NTc80MHw-QVXp-LQx4d4-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NTc80MHw-QVXp-LQx4d4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qLZGgdguWncP-lVoeVaB-9" source="NTc80MHw-QVXp-LQx4d4-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="-8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTc80MHw-QVXp-LQx4d4-39" value="Consumed&amp;nbsp; Events produced " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NTc80MHw-QVXp-LQx4d4-38">
+          <mxGeometry x="0.184" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTc80MHw-QVXp-LQx4d4-32" value="&lt;b&gt;readevent&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qLZGgdguWncP-lVoeVaB-9">
+          <mxGeometry x="180" y="52" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NTc80MHw-QVXp-LQx4d4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qLZGgdguWncP-lVoeVaB-9" source="NTc80MHw-QVXp-LQx4d4-34" target="NTc80MHw-QVXp-LQx4d4-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NTc80MHw-QVXp-LQx4d4-34" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="qLZGgdguWncP-lVoeVaB-9">
+          <mxGeometry x="90" y="57" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NTc80MHw-QVXp-LQx4d4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="qLZGgdguWncP-lVoeVaB-9" source="NTc80MHw-QVXp-LQx4d4-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="316" y="144.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="124.75" />
+              <mxPoint x="263" y="124.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTc80MHw-QVXp-LQx4d4-36" value="Post it into Queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NTc80MHw-QVXp-LQx4d4-35">
+          <mxGeometry x="0.1721" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTc80MHw-QVXp-LQx4d4-37" value="Customer like to select the Event approach we will use this line" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="qLZGgdguWncP-lVoeVaB-9">
+          <mxGeometry x="380" y="52" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NTc80MHw-QVXp-LQx4d4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NTc80MHw-QVXp-LQx4d4-8">
           <mxGeometry relative="1" as="geometry">
