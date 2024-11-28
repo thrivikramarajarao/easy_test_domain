@@ -310,11 +310,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qLZGgdguWncP-lVoeVaB-1" value="On-Boarding Process " style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="90" width="760" height="200" as="geometry" />
+        <mxCell id="qLZGgdguWncP-lVoeVaB-6" value="CRM Enterprise" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="670" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="qLZGgdguWncP-lVoeVaB-2" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="92" y="67" width="200" height="613" as="geometry" />
+        <mxCell id="qLZGgdguWncP-lVoeVaB-7" value="On-Boarding" style="swimlane;startSize=30;horizontal=0;html=1;" vertex="1" parent="qLZGgdguWncP-lVoeVaB-6">
+          <mxGeometry y="20" width="670" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qLZGgdguWncP-lVoeVaB-5" value="&lt;b&gt;/Onboard-product&lt;/b&gt; API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qLZGgdguWncP-lVoeVaB-7">
+          <mxGeometry x="130" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLZGgdguWncP-lVoeVaB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qLZGgdguWncP-lVoeVaB-7" source="qLZGgdguWncP-lVoeVaB-10" target="qLZGgdguWncP-lVoeVaB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLZGgdguWncP-lVoeVaB-10" value="Rest call" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="qLZGgdguWncP-lVoeVaB-7">
+          <mxGeometry x="40" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLZGgdguWncP-lVoeVaB-8" value="Lane 2" style="swimlane;startSize=30;horizontal=0;html=1;" vertex="1" parent="qLZGgdguWncP-lVoeVaB-6">
+          <mxGeometry y="140" width="670" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qLZGgdguWncP-lVoeVaB-9" value="Lane 3" style="swimlane;startSize=30;horizontal=0;html=1;" vertex="1" parent="qLZGgdguWncP-lVoeVaB-6">
+          <mxGeometry y="260" width="670" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
